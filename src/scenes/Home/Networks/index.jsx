@@ -32,7 +32,7 @@ class Networks extends Component {
           name: "Polkadot",
           icon: require("../../../assets/images/networks/polkadot.png"),
           iconMobile: require("../../../assets/images/networks_mobile/polkadot.png"),
-          
+
           url:"https://polkadot.network"
         },
         {
@@ -164,8 +164,8 @@ class Networks extends Component {
               </div>
 
               <div className="learnMore">
-                <Button className="lm_btn hvr-grow-shadow" type="primary" onClick={()=>{this.navigationTo("contact_us")}}>
-                  <FormattedMessage id="learn_more" />                  
+                <Button className="lm_btn hvr-grow-shadow" type="primary" onClick={()=>{this.navigationTo("contactUs")}}>
+                  <FormattedMessage id="learn_more" />
                 </Button>
               </div>
             </div>
@@ -191,8 +191,8 @@ class Networks extends Component {
                   })}
                 </div>
                 <div className="learnMore">
-                  <Button className="lm_btn hvr-grow-shadow" type="primary" onClick={()=>{this.navigationTo("contact_us")}}>
-                    <FormattedMessage id="learnMore" />                  
+                  <Button className="lm_btn hvr-grow-shadow" type="primary" onClick={()=>{this.navigationTo("contactUs")}}>
+                    <FormattedMessage id="learnMore" />
                   </Button>
                 </div>
               </div>
