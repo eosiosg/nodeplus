@@ -7,7 +7,7 @@ import { SettingOutlined } from "@ant-design/icons";
 import { FormattedMessage } from "react-intl";
 import {withRouter } from 'react-router';
 import {scrollToElementById} from "../utils/utils"
-
+import logo_white from '../assets/images/logo_white.png'
 const { Footer } = Layout;
 
 class Home extends Component {
@@ -46,7 +46,7 @@ class Home extends Component {
               onClick={() => {
                 this.go("/");
               }}
-              src={require("../assets/images/logo_white.png")}
+              src={logo_white}
               alt=" logo"
             />
 
@@ -55,7 +55,7 @@ class Home extends Component {
               ：{this.state.email}</div>
             <div className="phone">
               <FormattedMessage id="footer_address"/>
-              
+
               ：{this.state.address}
             </div>
           </div>
@@ -71,7 +71,7 @@ class Home extends Component {
                 }}
                 className="navigation_item"
               >
-                
+
               <FormattedMessage id="menu_feature"/>
 
               </span>
@@ -135,11 +135,11 @@ class Home extends Component {
           <div className="bottom_area">
             <div className="email">
             <FormattedMessage id="Email"/>
-              
+
               ：{this.state.email}</div>
             <div className="email">
             <FormattedMessage id="footer_address"/>
-              
+
               ：{this.state.address}
             </div>
             <div className="navigation">
@@ -184,9 +184,9 @@ class Home extends Component {
                 }}
               >
                 <FormattedMessage id="footer_privacy"/>
-                
+
               </span>
-                 
+
               <span
                 className="agreement_item"
                 onClick={() => {

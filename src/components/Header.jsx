@@ -9,6 +9,7 @@ import { FormattedMessage } from "react-intl";
 import { withRouter } from "react-router-dom";
 import {scrollToElementById,isElmInView} from "../utils/utils"
 import throttle from 'lodash/throttle'
+import logo from '../assets/images/logo.png'
 const { Header } = Layout;
 
 class AppHeader extends Component {
@@ -96,7 +97,7 @@ class AppHeader extends Component {
       >
         <div className="header_wrapper">
           {/* <span className="logo_text">Nodeplus</span> */}
-          <img  className="logo" onClick={()=>{this.go('/')}} src={require('../assets/images/logo.png')} alt=" logo"/>
+          <img  className="logo" onClick={()=>{this.go('/')}} src={logo} alt=" logo"/>
           <div className="header_container_wrapper">
             <div className="header_content">
               <Menu
@@ -111,7 +112,7 @@ class AppHeader extends Component {
                 >
                   <FormattedMessage id="menu_home" defaultMessage={"Home"} />
                 </Menu.Item>
-                  
+
                   <Menu.Item
                     key="feature"
                   >
@@ -142,7 +143,7 @@ class AppHeader extends Component {
               <Dropdown overlay={menu} trigger={['click']}>
                   <div className=" locale_icon iconfont icon-Global"></div>
               </Dropdown>
-            
+
             </div>
             <div className="vertical_menu_wrapper">
               <Dropdown overlay={menu} trigger={['click']}>
