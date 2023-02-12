@@ -486,7 +486,8 @@ class Privacy extends Component {
                   be considered consensus according to the customs and technical
                   conditions of that Blockchain.
                 </div>
-                <div className="end">Latest update: July 21, 2021</div>
+                <div className="end">Latest update: February 10, 2023</div>
+                <div className="end">EOSIO.SINGAPORE PTE. LTD.</div>
               </div>
             </div>
           </Content>
